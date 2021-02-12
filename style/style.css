@@ -194,11 +194,34 @@ header .wrap .header-nav .nav-cart {
   background-color: #F7F7F7;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .slider .wrap {
-  height: inherit;
-  background-image: url(../img/Image\ Slide.jpg);
+  min-height: 777px;
+  min-width: 1140px;
+  background-image: url(../img/SlideImg3.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider .slider-btn {
+  width: 47px;
+  height: 47px;
+  background-color: #2a2a2a31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slider-btn svg {
+  fill: #000;
+}
+.slider .slider-btn:hover {
+  background-color: #2a2a2a11;
+}
+.slider .slider-btn:hover svg {
+  fill: #F16D7F;
 }
 .detailed-description {
   min-height: 601px;
@@ -218,11 +241,11 @@ header .wrap .header-nav .nav-cart {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   flex-direction: column;
   min-height: inherit;
 }
 .detailed-description .wrap .block-description .title {
+  margin-top: 65px;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -232,9 +255,11 @@ header .wrap .header-nav .nav-cart {
 .detailed-description .wrap .block-description .div-hr {
   width: 63px;
   height: 3px;
+  margin-top: 12px;
   background-color: #EF5B70;
 }
 .detailed-description .wrap .block-description span {
+  margin-top: 12px;
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
@@ -242,6 +267,7 @@ header .wrap .header-nav .nav-cart {
   text-transform: uppercase;
 }
 .detailed-description .wrap .block-description p {
+  margin-top: 49px;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -249,15 +275,50 @@ header .wrap .header-nav .nav-cart {
   color: #5E5E5E;
 }
 .detailed-description .wrap .block-description p redtext {
+  margin-top: 32px;
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #EF5B70;
 }
 .detailed-description .wrap .block-description .div-hr2 {
+  margin-top: 65px;
+  margin-bottom: 65px;
   width: 100%;
   height: 1px;
   background-color: #EAEAEA;
+}
+.detailed-description .wrap .block-description .filter-block3 {
+  width: 374px;
+  margin-bottom: 49px;
+  display: flex;
+  justify-content: space-between;
+}
+.detailed-description .wrap .block-description .filter-block3 a {
+  text-decoration: none;
+}
+.detailed-description .wrap .block-description .filter-block3 a span {
+  padding-right: 9px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.detailed-description .wrap .block-description .btn {
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 48.5px;
+  border: 1px solid #EF5B70;
+  text-decoration: none;
+}
+.detailed-description .wrap .block-description .btn .btn-p {
+  margin: 0;
+  color: #EF5B70;
+}
+.detailed-description .wrap .block-description .btn svg {
+  fill: #EF5B70;
+  margin-right: 20px;
 }
 .filter {
   display: flex;
